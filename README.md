@@ -21,7 +21,7 @@ const bucket = storages.bucket(the name of BUCKET);
 + Import file sql for xampp
 + At file connectDB:
   * replace name file in Sequelize with name your file
-  * Ex: `const sequelize = new Sequelize(`**name file**`, 'root', null,{...`
+  * Ex: `const sequelize = new Sequelize(`**name database**`, 'root', null,{...`
 
 
 
