@@ -7,9 +7,10 @@
 
 ### step 2:
 Look at the code below
->const projectId = process.env.PROJECT_ID;         **the position is projectId**
->const keyFilename = path.resolve(__dirname, '../**name of file json**');
-
+```c
+const projectId = process.env.PROJECT_ID;         **the position is projectId**
+const keyFilename = path.resolve(__dirname, '../**name of file json**');
+```
 ### step 3:
 at file postController<br>
 `const bucket = storages.bucket(`**the name of BUCKET**);
