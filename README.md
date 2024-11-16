@@ -16,9 +16,9 @@ at file postController
 ```c
 const bucket = storages.bucket(the name of BUCKET);
 ```
-step 4:<br>
-- With database<br>
-+ Import file sql for xampp<br>
+### step 4:
+- With database
++ Import file sql for xampp
 + At file connectDB:
   * replace name file in Sequelize with name your file
   * Ex: `const sequelize = new Sequelize(`**name file**`, 'root', null,{...`
