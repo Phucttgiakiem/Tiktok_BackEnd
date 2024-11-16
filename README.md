@@ -12,9 +12,10 @@ const projectId = process.env.PROJECT_ID;         the position is projectId
 const keyFilename = path.resolve(__dirname, '../'name of file json'');
 ```
 ### step 3:
-at file postController<br>
-`const bucket = storages.bucket(`**the name of BUCKET**);
-<br>
+at file postController
+```c
+const bucket = storages.bucket(the name of BUCKET);
+```
 step 4:<br>
 - With database<br>
 + Import file sql for xampp<br>
