@@ -7,7 +7,7 @@ step 1:<br>
 <br>
 step 2:<br>
 Look at the code below<br>
-```const projectId = process.env.PROJECT_ID; **the position is projectId** ```<br>
+```const projectId = process.env.PROJECT_ID; **the position is projectId**<br>
 `const keyFilename = path.resolve(__dirname, '../`**name of file json**`');`
 <br>
 step 3:<br>
